@@ -1,7 +1,8 @@
 /**
  * SYST 17796 Project Base code.
  * Students can modify and extend to implement their game.
- * Add your name as an author and the date!
+ * Name: Deepak Kumar, Kalp Patel, Karandeep Kaur, Mandeep Kaur 
+ * Date: 12/06/2022
  */
 package ca.sheridancollege.project;
 
