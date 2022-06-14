@@ -23,8 +23,9 @@ public class GroupOfCards {
     private ArrayList<Card> cards;
     private int size;//the size of the grouping
 
-    public GroupOfCards(int size) {
+    public GroupOfCards(int size, ArrayList<Card> cards1) {
         this.size = size;
+        this.cards = cards1;
     }
 
     /**
@@ -34,6 +35,9 @@ public class GroupOfCards {
      */
     public ArrayList<Card> getCards() {
         return cards;
+    }
+    public void setCards(ArrayList<Card> card1) {
+        this.cards = card1;
     }
 
     public void shuffle() {
@@ -52,6 +56,15 @@ public class GroupOfCards {
      */
     public void setSize(int size) {
         this.size = size;
+    }
+
+    @Override
+    public String toString() {
+        String ret = "";
+        for (int i = 0; i < cards.size(); i++) {
+            ret += cards.get(i);
+        }
+        return ret;
     }
 
 }//end class
