@@ -11,6 +11,7 @@ class GameTest {
 
     /*
     GetMaxFreqCards - Normal
+    
      */
     @Test
     void testGetMaxFreqCard1() {
