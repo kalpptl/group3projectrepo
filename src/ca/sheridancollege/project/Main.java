@@ -14,6 +14,7 @@ A random player starts the game
 3. if the player doesnt have it, he says Go FISH and this player will draw a card from fishing pond
 4. If any player ahs a set of 4 same ranked card, he can remove it from his deck and his/her score will increment by 1
 5. After some turns of the game - whoever has the maximum score wins the game.
+
  */
 public class Main {
     public static void main(String[] args) {
