@@ -16,6 +16,7 @@ import static org.junit.Assert.*;
  * A class to test the methods in our passwordValidator
  * To be used as starter code for ICE 4
  * @author dancye, 2018
+ * 
  */
 public class GameTest {
 
